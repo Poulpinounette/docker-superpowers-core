@@ -9,7 +9,7 @@ And if you're comfortable with [Docker](https://docker.com), this is the fastest
 ## Run it quick
 
 ```bash
-docker run -d -p 4237:4237 -p 4238:4238 --name superpowers  v ./builds:/superpowers-core/builds -v projects:/superpowers-core/projects -e PASSWORD=your_password bguyl/superpowers-core
+docker run -d -p 4237:4237 -p 4238:4238 --name superpowers  -v builds:/superpowers-core/builds -v projects:/superpowers-core/projects -e PASSWORD=your_password bguyl/superpowers-core
 ```
 
 **Please**, replace "your_password" by your actual password.  
