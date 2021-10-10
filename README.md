@@ -1,4 +1,4 @@
-# Superpowers-core Docker image
+# Superpowers-core Docker image (Rework for talk always the last version of superpowers core.)
 
 This is a docker image for host a Superpowers-core server. Obviously.
 
